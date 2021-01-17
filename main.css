@@ -18,7 +18,7 @@
   --light-primary-color: #E1BEE7; 
   --text-primary-color: #FFFFFF; 
   --accent-color: #448AFF;
-  --primary-text-color #212121; 
+  --primary-text-color: #212121; 
   --secondary-text-color: #757575; 
   --divider-color: #BDBDBD; 
 }
@@ -26,7 +26,7 @@
 /****************************************************************/
 
 body {
-  margin: 10px;
+  margin: 60px 0 20px;
   font-family: 'Sora', sans-serif;
 }
 
@@ -47,20 +47,16 @@ h1 {
   box-shadow: 4px 8px #444444;
   width: 28%;
   margin: 10px 10px;
-/*  background-color: rgb(233, 232, 247); */
   background-color: var(--light-primary-color); 
-  /*color: var(--secondary-text-color); */
 
 }
 
 .gear-card header {
-/*  border: 1px solid lightblue; */
   border: 1px solid var(--accent-color);
   border-radius: 5px;
   min-height: 6em;
   width: 92%;
   margin: 3% auto 3%;
-  /* background-color: rgb(483, 483, 580); */
   background-color: var(--dark-primary-color);
   color: var(--text-primary-color);
   
@@ -70,6 +66,16 @@ h1 {
 }
 
 .description-section {
+  float: left;
+  position: relative;
+}
+.description-section img.sold_out {
+  position: absolute;
+  left: -10%;
+  opacity: 80%;
+  width: 120%;
+  margin: 9% auto;
+  border: none;
 }
 .description-section img {
   display: block;
@@ -78,6 +84,7 @@ h1 {
   border: 1px solid var(--accent-color);
   border-radius: 5px;
 }
+
 .description-section .description p {
   padding: 0 4% 0;
   min-height: 8em;
