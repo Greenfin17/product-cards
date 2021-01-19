@@ -124,6 +124,9 @@ h1 {
   .gear-card header {
     min-height: 8em;
   }
+  .specifications .size {
+    min-height: 2em;
+  }
 }
 
 @media (max-width: 974px) {
@@ -142,6 +145,9 @@ h1 {
   .description-section .description p {
     min-height: 14.5em;
   }
+  .specifications .size {
+    min-height: 3.2em;
+  }
 }
 
 @media (max-width: 564px) {
@@ -149,7 +155,7 @@ h1 {
     font-size: .9em;
   }
   .gear-card header {
-    min-height: 6em;
+    min-height: 7em;
   }
   .gear-card h2 {
     font-size: 1.2em;
